@@ -1,7 +1,7 @@
 import React from 'react'
 import './register.css'
-import { createUserWithEmailAndPassword } from "firebase/auth";
-import { auth } from "../firebase";
+// import { createUserWithEmailAndPassword } from "firebase/auth";
+// import { auth } from "../firebase";
 
 const Register = () => {
 
