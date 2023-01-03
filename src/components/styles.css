@@ -130,6 +130,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 .input input {
@@ -164,7 +165,7 @@ img {
 
 .message {
     display: flex;
-    gap: 20px;
+    gap: 10px;
 }
 
 
@@ -203,7 +204,43 @@ img {
 
 
 @media (max-width:900px) {
-    .caht {
-        width: 100%;
+    img {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .messageInfo {
+        font-size: 10px;
+    }
+
+    .messageContent p {
+        border-radius: 0 5px 5px 5px;
+        padding: 5px 10px;
+    }
+
+    .image__message {
+        width: 70%;
+        height: 70%;
+        border-radius: 0;
+        margin: 5px 0;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .logOut {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+    }
+    .input {
+      
+        position: absolute;
+        bottom: 0%;
+    }
+    .messages {
+        
+        height: 90%;
     }
 }
