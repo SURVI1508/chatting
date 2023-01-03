@@ -1,5 +1,6 @@
 import React from 'react'
 import './styles.css'
+import {NavLink} from 'react-router-dom'
 const Navbar = () => {
   return (
     <div className='navbar'>
@@ -7,7 +8,9 @@ const Navbar = () => {
       <div className='user'>
         <img src="./images/wallpaper.jpg" alt="" />
         <span>Johan</span>
+        <NavLink to='/signin'>
         <button className='logOut'>Logout</button>
+        </NavLink>
       </div>
     </div>
   )
